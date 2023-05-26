@@ -36,7 +36,7 @@ import {
 export default {
   data(){
     return {
-      cardImage: require('/images/pages/card-basic-influencer.png'),
+      cardImage: require('@/assets/images/pages/card-basic-influencer.png'),
     };
   },
   setup() {

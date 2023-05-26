@@ -17,7 +17,7 @@
         <v-card>
           <v-img
             class="white--text align-end"
-            :src="require('/images/pages/card-basic-person.png')"
+            :src="require('@/assets/images/pages/card-basic-person.png')"
             height="250"
           />
           <v-card-text class="position-relative">
@@ -300,7 +300,7 @@ import {
 export default {
   data(){
     return {
-      cardImage: require('/images/pages/card-basic-influencer.png'),
+      cardImage: require('@/assets/images/pages/card-basic-influencer.png'),
     };
   },
   setup() {

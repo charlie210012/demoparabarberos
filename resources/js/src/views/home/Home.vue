@@ -21,6 +21,7 @@
     </p>
 
     <card-solid></card-solid>
+    <button-whatsapp></button-whatsapp>
   </div>
 </template>
 
@@ -31,6 +32,7 @@ import CardSolid from '../cards/CardSolid.vue'
 import HeaderHome from './HeaderHome.vue'
 import StoreCarousel from './StoreCarousel.vue'
 import StoreCard from './StoreCard.vue'
+import ButtonWhatsapp from './ButtonWhatsapp.vue'
 
 export default {
   components: {
@@ -40,6 +42,7 @@ export default {
     HeaderHome,
     StoreCarousel,
     StoreCard,
+    ButtonWhatsapp,
   },
 }
 </script>

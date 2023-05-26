@@ -6,8 +6,8 @@
         <v-img
           src="/images/barber-construction.svg"
           alt="Imagen de construcción"
-          width="300"
-          height="300"
+          width = "300px"
+          height = "300px"
           class="img mt-6"
         ></v-img>
         <p class="subheading mt-4">Estamos trabajando en mejorar nuestro sitio web.</p>
@@ -30,10 +30,23 @@ export default {
 }
 
 .img {
-  margin-left: 350px;
+  margin: 0 auto; /* Centrar la imagen horizontalmente */
+  max-width: 100%; /* Ajustar el ancho máximo de la imagen */
 }
 
 .subheading {
   font-size: 18px;
 }
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 480px) {
+  .headline {
+    font-size: 24px;
+  }
+
+  .subheading {
+    font-size: 16px;
+  }
+}
 </style>
+ +
